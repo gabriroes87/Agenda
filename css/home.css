@@ -1,0 +1,29 @@
+#DivFull{
+    margin-top: 200px;
+}
+#DivFull #logo img{
+    width: 100%;
+}
+#DivFull #logo{
+    width: 30vw;
+}
+#DivFull #title {
+    font-size: 36px;
+    font-weight: bold;
+}
+#DivFull #subtitle p{ 
+    font-size: 25px;
+    line-height: 20px;
+}
+
+#menu p{
+    text-align: center;
+   }
+#icoLogo{
+       width: 3.5vw;
+       
+   }
+#icoLogo img{
+       width: 100%;
+       border-radius: 5px;
+   }

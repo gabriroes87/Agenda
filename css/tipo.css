@@ -1,0 +1,84 @@
+#title{
+    font-size: 30px;
+    margin-top: 250px;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+ color: inherit; /* blue colors for links too */
+ text-decoration: inherit; /* no underline */
+  }
+
+#create button{
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#create p{
+    margin-top: 5px;
+}
+#menu p{
+    text-align: center;
+   }
+#icoLogo{
+       width: 3.5vw;
+       
+   }
+#icoLogo img{
+       width: 100%;
+       border-radius: 5px;
+   }
+
+
+   /* Calcendar UI */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+    font-family: Verdana, sans-serif;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.days {
+    margin: 0;
+    padding: 10px 0;
+}    
+
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+} 
+
+
+.days li .active {
+    padding: 5px;
+    background-color: #343a40;
+    color: white !important;
+}
